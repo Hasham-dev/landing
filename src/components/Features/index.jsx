@@ -8,6 +8,7 @@ import {
     Stack,
     HStack,
     VStack,
+    useColorModeValue,
   } from '@chakra-ui/react';
   import { CheckIcon } from '@chakra-ui/icons';
   
@@ -36,7 +37,7 @@ import {
           <SimpleGrid columns={{ base: 1, md: 2, lg: 4 }} spacing={10}>
             {features.map((feature) => (
               <HStack key={feature.id} align={'top'}>
-                <Box color={'green.400'} px={2}>
+                <Box color={useColorModeValue('orange.500', 'purple.500')} px={2}>
                   <Icon as={CheckIcon} />
                 </Box>
                 <VStack align={'start'}>

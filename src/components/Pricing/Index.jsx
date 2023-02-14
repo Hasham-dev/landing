@@ -69,20 +69,20 @@ export default function Pricing() {
             borderBottomRadius={'xl'}>
             <List spacing={3} textAlign="start" px={12}>
               <ListItem>
-                <ListIcon as={FaCheckCircle} color="green.500" />
+                <ListIcon as={FaCheckCircle} color={useColorModeValue('orange.500', 'purple.500')} />
                 unlimited build minutes
               </ListItem>
               <ListItem>
-                <ListIcon as={FaCheckCircle} color="green.500" />
+                <ListIcon as={FaCheckCircle} color={useColorModeValue('orange.500', 'purple.500')} />
                 Lorem, ipsum dolor.
               </ListItem>
               <ListItem>
-                <ListIcon as={FaCheckCircle} color="green.500" />
+                <ListIcon as={FaCheckCircle} color={useColorModeValue('orange.500', 'purple.500')} />
                 5TB Lorem, ipsum dolor.
               </ListItem>
             </List>
             <Box w="80%" pt={7}>
-              <Button w="full" colorScheme="red" variant="outline">
+              <Button w="full" color={useColorModeValue('orange.400', 'purple.400')} variant="outline">
                 Start trial
               </Button>
             </Box>
@@ -98,10 +98,10 @@ export default function Pricing() {
               style={{ transform: 'translate(-50%)' }}>
               <Text
                 textTransform="uppercase"
-                bg={useColorModeValue('red.300', 'red.700')}
+                bg={useColorModeValue('orange.300', 'purple.700')}
                 px={3}
                 py={1}
-                color={useColorModeValue('gray.900', 'gray.300')}
+                color={useColorModeValue('orange.900', 'gray.300')}
                 fontSize="sm"
                 fontWeight="600"
                 rounded="xl">
@@ -130,28 +130,28 @@ export default function Pricing() {
               borderBottomRadius={'xl'}>
               <List spacing={3} textAlign="start" px={12}>
                 <ListItem>
-                  <ListIcon as={FaCheckCircle} color="green.500" />
+                  <ListIcon as={FaCheckCircle} color={useColorModeValue('orange.500', 'purple.500')} />
                   unlimited build minutes
                 </ListItem>
                 <ListItem>
-                  <ListIcon as={FaCheckCircle} color="green.500" />
+                  <ListIcon as={FaCheckCircle} color={useColorModeValue('orange.500', 'purple.500')} />
                   Lorem, ipsum dolor.
                 </ListItem>
                 <ListItem>
-                  <ListIcon as={FaCheckCircle} color="green.500" />
+                  <ListIcon as={FaCheckCircle} color={useColorModeValue('orange.500', 'purple.500')} />
                   5TB Lorem, ipsum dolor.
                 </ListItem>
                 <ListItem>
-                  <ListIcon as={FaCheckCircle} color="green.500" />
+                  <ListIcon as={FaCheckCircle} color={useColorModeValue('orange.500', 'purple.500')} />
                   5TB Lorem, ipsum dolor.
                 </ListItem>
                 <ListItem>
-                  <ListIcon as={FaCheckCircle} color="green.500" />
+                  <ListIcon as={FaCheckCircle} color={useColorModeValue('orange.500', 'purple.500')} />
                   5TB Lorem, ipsum dolor.
                 </ListItem>
               </List>
               <Box w="80%" pt={7}>
-                <Button w="full" colorScheme="red">
+                <Button w="full" colorScheme={useColorModeValue('orange', 'purple')}>
                   Start trial
                 </Button>
               </Box>
@@ -181,20 +181,20 @@ export default function Pricing() {
             borderBottomRadius={'xl'}>
             <List spacing={3} textAlign="start" px={12}>
               <ListItem>
-                <ListIcon as={FaCheckCircle} color="green.500" />
+                <ListIcon as={FaCheckCircle} color={useColorModeValue('orange.500', 'purple.500')} />
                 unlimited build minutes
               </ListItem>
               <ListItem>
-                <ListIcon as={FaCheckCircle} color="green.500" />
+                <ListIcon as={FaCheckCircle} color={useColorModeValue('orange.500', 'purple.500')} />
                 Lorem, ipsum dolor.
               </ListItem>
               <ListItem>
-                <ListIcon as={FaCheckCircle} color="green.500" />
+                <ListIcon as={FaCheckCircle} color={useColorModeValue('orange.500', 'purple.500')} />
                 5TB Lorem, ipsum dolor.
               </ListItem>
             </List>
             <Box w="80%" pt={7}>
-              <Button w="full" colorScheme="red" variant="outline">
+              <Button w="full" color={useColorModeValue('orange.400', 'purple.400')} variant="outline">
                 Start trial
               </Button>
             </Box>

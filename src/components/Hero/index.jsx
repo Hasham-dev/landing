@@ -32,7 +32,7 @@ export default function Hero() {
             fontSize={{ base: '2xl', sm: '4xl', md: '6xl' }}
             lineHeight={'110%'}>
             Make money from <br />
-            <Text as={'span'} color={'green.400'}>
+            <Text as={'span'} color={useColorModeValue('orange.500', 'purple.500')}>
               your audience
             </Text>
           </Heading>
@@ -48,12 +48,12 @@ export default function Hero() {
             alignSelf={'center'}
             position={'relative'}>
             <Button
-              colorScheme={'green'}
-              bg={'green.400'}
+              colorScheme={useColorModeValue('orange', 'purple')}
+              bg={useColorModeValue('orange.500', 'purple.500')}
               rounded={'full'}
               px={6}
               _hover={{
-                bg: 'green.500',
+                bg: useColorModeValue('orange.500', 'purple.500'),
               }}>
               Get Started
             </Button>
