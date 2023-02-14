@@ -33,7 +33,7 @@ const Index = () => (
       <Features />
       <Testimonials />
       <Pricing />
-      <Container py={28} minW="container.md">
+      <Container py={28} bgColor={{ light: 'orange.50', dark: 'gray.900' }} minW="container.md">
         <Box w="full">
           <VStack spacing={10} w="full">
             <Text fontWeight={500} fontSize="2xl" align="center">
