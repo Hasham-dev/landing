@@ -7,7 +7,7 @@ import Pricing from 'components/Pricing/Index'
 import { Box, Text, VStack } from '@chakra-ui/react'
 import { FAQSection } from 'components/FAQ/Index'
 
-const faqs: any[] = [
+const faqs = [
   {
     q: 'How many clients can I bring on?',
     a: 'You can bring on 3 clients with the Free plan. Upgrade to Pro for additional seats.'
@@ -28,7 +28,7 @@ const faqs: any[] = [
 
 const Index = () => (
   <>
-    <Container  bgColor={{ light: 'orange.50', dark: 'gray.900' }}>
+    <Container>
       <Hero />
       <Features />
       <Testimonials />

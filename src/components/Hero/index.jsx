@@ -21,7 +21,8 @@ export default function Hero() {
         />
       </Head>
 
-      <Container maxW={'3xl'}>
+      <Container
+        maxW={'3xl'}>
         <Stack
           as={Box}
           textAlign={'center'}
