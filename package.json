@@ -12,6 +12,9 @@
       "yarn lint --fix"
     ]
   },
+  "engines": {
+    "node": "16.x"
+  },
   "dependencies": {
     "@chakra-ui/icons": "^1.0.5",
     "@chakra-ui/react": "^1.4.2",
