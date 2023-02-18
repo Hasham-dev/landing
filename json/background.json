@@ -1,0 +1,38 @@
+[
+    {
+    "id": "1",
+    "title": "background1",
+    "text": "background1",
+    "img": "/Background/1.png"
+    },
+    {
+    "id": "2",
+    "title": "background2",
+    "text": "background2",
+    "img": "/Background/2.png"
+    },
+    {
+    "id": "3",
+    "title": "background3",
+    "text": "background3",
+    "img": "/Background/3.png"
+    },
+    {
+    "id": "4",
+    "title": "background4",
+    "text": "background4",
+    "img": "/Background/4.png"
+    },
+    {
+    "id": "5",
+    "title": "background5",
+    "text": "background5",
+    "img": "/Background/5.png"
+    },
+    {
+    "id": "6",
+    "title": "background6",
+    "text": "background6",
+    "img": "/Background/6.png"
+    }
+]

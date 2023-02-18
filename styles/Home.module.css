@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Poppins:wght@600&display=swap');
+
+.container{  
+  background: linear-gradient(#FFDD58, #E2BC59) ;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: 200px ;
+}
+
+.body{
+  background: #FFDD58;
+}
+
+.headBox{
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-row: 1fr;
+  height: 150px;
+  background: #FFDD58;
+
+}
+
+.header{
+  font-family: "Nerko One";
+  font-size: 3rem;
+  text-align: center;
+
+}
+
+
+.overlayGrid{
+  padding: 10px;
+  display: grid;
+  grid-template-areas: "overlaydemo";
+  grid-row: span 2 / auto;
+  align-self: center;
+}
+
+.overlayGrid > span {
+  grid-area: overlaydemo;
+  border-radius: 10%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+  
+}
+
+.components{
+  display: flex;
+  flex-direction: column;
+  border: none;
+  align-items: center;
+  font-family: "Poppins";
+}
+
+.button{
+  width: 40%;
+  height: 20%;
+  color: #000000;
+  background-color: #AD84AF;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-family: "Nerko One";
+  font-size: 2rem;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #73A47A; /* Green */
+  color: white;
+}
+
+.shirtsGridContainer{
+  margin: 10px;
+  border:solid grey;
+  padding: 10px;
+  background-color: beige;
+  overflow: auto;
+  
+}
+
+.shirtsGrid {
+  overflow: auto;
+  
+}
+
+.shirt{
+  cursor: pointer;
+  margin: 50%;
+}
+
+.backgroundToggle {
+  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  padding: 10px;
+  max-width: 100%;
+  
+}
+
+.backgroundImage{
+  border: solid rgb(0, 0, 0);
+  border-radius: 10%;
+  cursor: pointer;
+  
+} 
+
+.link{
+  color: blue;
+} 
+
+.select{
+  border:solid, grey;
+  background-color: beige;
+  font-family: "Poppins";
+  height: 30%;
+  width: 60%;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.canvas{
+  border:1px solid #f70000;
+}
