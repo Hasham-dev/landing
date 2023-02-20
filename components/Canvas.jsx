@@ -101,7 +101,7 @@ export default function CanvasComponent() {
   const imageShirt = new Image(usedShirtImg, 100, 100);
 
   useEffect(() => {
-    const ctx = myCanvas.current.getContext("2d");
+    myCanvas.current.getContext("2d");
   });
 
   useEffect(() => {
