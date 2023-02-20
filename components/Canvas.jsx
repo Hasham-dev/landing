@@ -95,7 +95,6 @@ export default function CanvasComponent() {
     ctx.drawImage(headGen, 0, 0, 500, 500);
     return (image2 = canvas.toDataURL()), setCanvasImage(image2);
   };
-  generateImage();
 
   // NEW Canvas Image Generation Without using npm + <Canvas> element below //
   const myCanvas = useRef();
@@ -104,6 +103,10 @@ export default function CanvasComponent() {
   useEffect(() => {
     const ctx = myCanvas.current.getContext("2d");
   });
+
+  useEffect(() => {
+    generateImage();
+  }, [Canvas]);
 
   //
   return (
