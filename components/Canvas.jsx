@@ -106,7 +106,7 @@ export default function CanvasComponent() {
 
   useEffect(() => {
     generateImage();
-  }, [Canvas]);
+  }, [Canvas, backPic, usedShirtImg, usedFaceImg, usedHeadImg, image2]);
 
   //
   return (
